@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawnsoor.com</title>
+    <style>
+      p {
+        margin: 4px;
+      }
+      hr {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      <img
+        style="border-radius: 50%; width: 200px; height: 200px"
+        src="./images/user.jpg"
+        alt="profile"
+      />
+      <hr />
+      <div style="margin-top: 5px">{{.User_name}}</div>
+      <div style="margin-top: 10px">You are {{.User_status}}</div>
+      <button class="btnLogout">Log Out</button>
+      <hr style="width: 80%" />
+      <div style="width: 80%">
+        <p>
+          <b> Lorem ipsum dolor </b> sit amet consectetur adipisicing elit.
+          Recusandae, illum cumque placeat, quam sequi totam fugit
+          necessitatibus reiciendis animi nihil eaque porro earum nobis iste
+          eius tempora repellat hic.
+        </p>
+        <hr>
+    </div>
+    <script src="user.js"></script>
+  </body>
+</html>

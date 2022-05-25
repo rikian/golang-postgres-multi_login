@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Multi User</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- login -->
+      <div class="container-login">
+        <div class="login_header">Login</div>
+        <form class="form-login" method="POST">
+          <div class="con-input login-email">
+            <input
+              id="input-email"
+              class="log-input login-email-input"
+              name="email"
+              placeholder="Email address or phone number"
+              required
+              minlength="6"
+              maxlength="50"
+              autofocus
+            />
+          </div>
+          <div class="con-input login-password">
+            <input
+              id="input-password"
+              class="log-input login-password-input"
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+              minlength="6"
+              maxlength="250"
+            />
+          </div>
+        </form>
+        <button class="btn-login">Log In</button>
+        <a class="forgotten-password" href="#">Forgotten password?</a>
+        <hr />
+        <button class="btn-register">Create New Account</button>
+      </div>
+      <!-- register -->
+      <div class="container-register">
+        <div class="login_header">Create New Account</div>
+        <form class="form-register" method="POST" action="/register/">
+          <div class="con-input register-fullname">
+            <input
+              class="log-input register-input-fullname"
+              type="text"
+              id="r-fullName"
+              name="fullName"
+              placeholder="Name"
+              required
+              minlength="6"
+              maxlength="50"
+              pattern="[a-zA-Z0-9. -]+"
+              autofocus
+            />
+          </div>
+          <div class="con-input register-phone">
+            <input
+              class="log-input register-input-phone"
+              type="number"
+              id="r-phone"
+              name="phone"
+              placeholder="Phone"
+              required
+              minlength="8"
+              maxlength="20"
+              autofocus
+            />
+          </div>
+          <div class="con-input register-email">
+            <input
+              class="log-input register-input-email"
+              type="email"
+              id="r-email"
+              name="email"
+              required
+              placeholder="Email"
+              maxlength="50"
+              autofocus
+            />
+          </div>
+          <div class="con-input register-email">
+            <select
+              class="log-input register-input-email"
+              id="r-status"
+              name="status"
+              required
+              placeholder="Status"
+              maxlength="50"
+              autofocus
+            >
+              <option value="admin">Admin</option>
+              <option value="user">User</option>
+            </select>
+          </div>
+          <div class="con-input register-password1">
+            <input
+              class="log-input register-input-password1"
+              type="password"
+              id="r-password1"
+              name="password1"
+              placeholder="Password"
+              required
+              minlength="6"
+              maxlength="250"
+              autofocus
+            />
+          </div>
+          <div class="con-input register-password2">
+            <input
+              class="log-input register-input-password2"
+              type="password"
+              id="r-password2"
+              name="password2"
+              placeholder="Confirm Password"
+              required
+              minlength="6"
+              maxlength="250"
+              autofocus
+            />
+          </div>
+          <div class="term-privacy-policy">
+            <p>
+              <input
+                class="register-input-check"
+                type="checkbox"
+                id="r-checkTerms"
+                name="checkTerms"
+                value="yes"
+              />
+              <a class="term" href="#">terms</a> and
+              <a class="privacy-policy" href="#">privacy policy</a>
+            </p>
+          </div>
+        </form>
+        <button class="btn-signup">Sign Up</button>
+        <br />
+        <hr />
+        have an account?
+        <button class="btn-log-in">Log In</button>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

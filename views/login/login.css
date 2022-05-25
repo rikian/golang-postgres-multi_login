@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  /* height: 700px; */
+  background-color: whitesmoke;
+  /* border: 1px solid rgb(214, 23, 23); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.container-login {
+  width: 95%;
+  max-width: 400px;
+  /* height: 300px; */
+  border: 1px solid rgb(150, 144, 144);
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.login_header {
+  margin: 5px;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* login */
+form.form-login {
+  width: 90%;
+  max-width: 350px;
+  /* max-width: 400px; */
+  min-height: 100px;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form.form-login input:focus {
+  outline: none;
+}
+
+form.form-login input::placeholder {
+  font-size: large;
+}
+
+div.con-input {
+  width: 90%;
+  height: 45px;
+  border: 1px solid rgb(204, 194, 194);
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-input {
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  color: black;
+}
+
+button.btn-login {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: x-large;
+  margin: 10px;
+  background-color: rgb(65, 65, 189);
+}
+
+button.btn-login:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 145);
+}
+
+.forgotten-password {
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.forgotten-password:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 90%;
+}
+
+.btn-register {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin: 10px;
+  background-color: rgb(12, 181, 68);
+}
+
+.btn-register:hover {
+  cursor: pointer;
+  background-color: rgb(16, 112, 48);
+}
+
+.btn-register:focus {
+  outline: none;
+}
+
+/* Register */
+.container-register {
+  width: 90%;
+  /* height: 500px; */
+  border: 1px solid rgb(162, 152, 152);
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+form.form-register {
+  width: 90%;
+  max-width: 350px;
+  height: 400px;
+  /* border: 1px solid black; */
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form.form-register input:focus {
+  outline: none;
+}
+
+form.form-register input::placeholder {
+  font-size: large;
+}
+
+.term-privacy-policy {
+  width: 90%;
+  height: 50px;
+  /* max-height: 50px; */
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-input-check {
+  margin: 0 5px 0 0;
+}
+
+.term-privacy-policy p {
+  text-align: center;
+  width: 100%;
+  /* max-width: 90%; */
+  /* max-height: 20px; */
+  max-height: 50px;
+  /* margin: 0 0 0 10px; */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.term {
+  text-decoration: none;
+  margin: 0 3px 0 3px;
+  color: blue;
+  /* border: 1px solid black; */
+}
+
+a.privacy-policy {
+  text-decoration: none;
+  margin: 0 3px 0 3px;
+  color: blue;
+  /* border: 1px solid black; */
+}
+
+.term-privacy-policy a:hover {
+  text-decoration: underline;
+}
+
+.btn-signup {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: x-large;
+  margin: 10px;
+  background-color: rgb(12, 181, 68);
+}
+
+.btn-signup:hover {
+  cursor: pointer;
+  background-color: rgb(16, 112, 48);
+}
+
+.btn-signup:focus {
+  outline: none;
+}
+
+.btn-log-in {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin: 10px;
+  background-color: rgb(65, 65, 189);
+}
+
+.btn-log-in:hover {
+  cursor: pointer;
+  background-color: rgb(40, 40, 145);
+}
+
+.btn-register:focus {
+  outline: none;
+}
