@@ -10,3 +10,6 @@ login logut register dengan golang, postgres html css javascript
 
 `setting configuration postgres in config foleder`
 # run `go run main.go`
+
+
+created by Rikian Faisa --> https://lawnsoor.com
