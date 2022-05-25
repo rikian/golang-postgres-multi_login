@@ -12,4 +12,4 @@ login logut register dengan golang, postgres html css javascript
 # run `go run main.go`
 
 
-created by Rikian Faisa --> https://lawnsoor.com
+created by Rikian Faisal --> https://lawnsoor.com
